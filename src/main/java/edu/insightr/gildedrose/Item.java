@@ -1,11 +1,11 @@
 package edu.insightr.gildedrose;
 
-public class Item {
+public abstract class Item implements Update{
 
-    private String name;
-    private int sellIn;
+    protected String name;
+    protected int sellIn;
 
-    private int quality;
+    protected int quality;
 
     public Item(String name, int sellIn, int quality) {
         super();
